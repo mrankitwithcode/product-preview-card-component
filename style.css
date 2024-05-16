@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.main {
+    background-color: aliceblue;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border-radius: 10px;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    padding: 40px 30px;
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.perfume h6 {
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    opacity: 0.8;
+    margin-bottom: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.productname h1 {
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: hsl(212, 21%, 14%);
+    font-size: 28px;
+
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+
+.productinfo p {
+    margin-bottom: 20px;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    opacity: 0.8;
+    font-family: "Montserrat", sans-serif;
+
+    font-weight: 500;
+
+}
+
+.price {
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.price h1 {
+    font-size: 28px;
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "SOFT" 0,
+        "WONK" 0;
+}
+
+.price h6 {
+    padding-left: 16px;
+    padding-top: 15px;
+    color: hsl(228, 12%, 48%);
+    opacity: 0.7;
+    font-weight: 900;
+}
+
+button{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 55px;
+    background-color: hsl(158, 36%, 37%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer;
+    
+   
+}
+button:active{
+cursor: pointer;
+background-color: hsl(158, 28%, 27%);;
+}
+button i{
+    opacity: 0.8;
+   
+}
+
+   button h6{
+    font-weight: 700;
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+   
+    opacity: 0.8;
+    font-style: normal;
+   }
+
+   
+   
+
